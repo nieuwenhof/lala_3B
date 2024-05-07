@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --azul-forte:#1a02a3;
+    --roxo-medio:#6e43b0; 
+    --laranja-laranja:#f79d00;
+    --verde-verdinho:#00ff7b;
+    --amarelo-sol:#f1f500;
+    --preto-escuro:#0a0101;
+    --fonte-titulo: "Livre Baskerville";
+    --fonte-texto: "Livre Baskerville"
+   
+}
+
+body{
+    background-color: var(--azul-forte);
+    color:var(--roxo-medio)
+    font-family: var(var(--fonte-texto))
+}
