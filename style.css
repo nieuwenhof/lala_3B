@@ -19,6 +19,34 @@
 
 body{
     background-color: var(--azul-forte);
-    color:var(--roxo-medio)
-    font-family: var(var(--fonte-texto))
+    color:var(--roxo-medio);
+    font-family: var(--fonte-texto);
+}
+
+.titulo-principal{
+    font-family: var(--fonte-titulo);
+}
+
+.conteudo-titulo{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.img-cadeado{
+    width: 5%;
+}
+
+.conteudo-senha{
+    margin-top: 80px;
+    background-color: var(--amarelo-sol);
+    padding: 24px;
+    border-bottom: 6px solid var(--azul-forte);
+}
+
+#campo-senha {
+    background-color: var(--laranja-laranja);
+    border: none;
+    color: var(--preto-escuro);
+    font-family: var(--fonte-texto);
+    font-size: 40px;
 }
